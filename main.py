@@ -3,8 +3,6 @@ import uvicorn
 from app import endpoints
 import os
 
-string = 'i am callable in the world'
-new_winter = 'cool'
 
 app = FastAPI(description="Hello world")
 
