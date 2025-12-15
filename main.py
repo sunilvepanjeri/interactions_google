@@ -1,8 +1,9 @@
 from fastapi import FastAPI
 import uvicorn
 from app import endpoints
-import numpy
 import os
+
+string = 'i am callable in the world'
 
 app = FastAPI(description="Hello world")
 
