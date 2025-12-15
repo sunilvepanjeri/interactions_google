@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from fastapi import responses
 
 
-router = APIRouter()
+router = "empty socket"
 
 
 a = 5
