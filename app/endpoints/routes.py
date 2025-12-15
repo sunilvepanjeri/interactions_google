@@ -3,3 +3,6 @@ from fastapi import responses
 
 
 router = APIRouter()
+
+
+a = 5
