@@ -3,7 +3,7 @@ import uvicorn
 from app import endpoints
 import os
 
-
+member = 'hole'
 app = FastAPI(description="Hello world")
 
 app.include_router(endpoints.router)
