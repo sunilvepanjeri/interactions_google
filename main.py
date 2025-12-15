@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import uvicorn
 from app import endpoints
 import numpy
-
+from fastapi.responses import JSONResponse
 
 app = FastAPI(description="Hello world")
 
