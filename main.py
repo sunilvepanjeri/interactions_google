@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 import uvicorn
 from app import endpoints
+import numpy
 
 
 app = FastAPI(description="Hello world")
